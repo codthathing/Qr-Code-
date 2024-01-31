@@ -23,18 +23,13 @@ body {
     margin: auto;
 }
 
-#codeDiv {
-    background-color: black;
-    border-radius: 0.75rem;
-}
-
 #impHead {
     font-size: 1.25rem;
     margin: 1.5rem 0;
 }
 
 #scanText {
-    font-size: 1rem;
+    font-size: 0.85rem;
 }
 
 
@@ -47,13 +42,14 @@ body {
         padding: 1rem 1rem 2rem 1rem;
     }
 
-    #codeDiv {
-        padding: 4rem;
+    #codeImg {
+        height: 18.5rem;
+        width: 18.5rem;
+        border-radius: 0.75rem;
     }
 
-    #codeImg {
-        height: 10.5rem;
-        width: 10.5rem;
+    #scanText {
+        font-size: 1rem;
     }
 }
 
@@ -63,16 +59,13 @@ body {
 
 @media all and (min-width: 1024px) {
     #mainCard {
-        width: 30%;
+        width: 20%;
         padding: 1rem 1rem 3.5rem 1rem;
-    }
-
-    #codeDiv {
-        padding: 4rem;
     }
 
     #codeImg {
         height: 14.5rem;
-        width: 14rem;
+        width: 14.25rem;
+        border-radius: 0.75rem;
     }
 }
